@@ -1,0 +1,34 @@
+{
+    "name": "ScreenTouchAction",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "f001c176-07f5-4b0f-a5c4-086676c0f174",
+            "actions": [
+                {
+                    "name": "TouchPressed",
+                    "type": "Value",
+                    "id": "92aa6602-2341-4cbd-8b64-ba913e4da55b",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d2af11f2-54f9-4122-9a18-189852d99a0b",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
